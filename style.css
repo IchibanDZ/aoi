@@ -1,0 +1,141 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #4bcaff; /* Couleur de texte bleu */
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #515f67; /* Arrière-plan gris clair */
+    padding: 20px;
+    text-align: center;
+}
+
+.section2 {
+    text-align: center;
+}
+
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 10px;
+}
+
+nav ul li a {
+    color: #4bcaff; /* Liens bleus */
+    text-decoration: none;
+}
+
+.hero {
+    width: 50%;
+    text-align: center;
+    margin: 20px 0;
+    height: 50px; /* Taille par défaut, à ajuster avec l'image */
+    background-color: #515f67; /* Arrière-plan de l'image héroïque */
+}
+
+.content, .services, .portfolio, .default-section, .who-is-john-doe, .testimonial, .twitter, .form {
+    background-color: #515f67; /* Arrière-plan gris clair */
+    margin: 20px auto;
+    padding: 20px;
+    border-radius: 10px;
+    max-width: 600px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+h2 {
+    color: #4bcaff; /* Titres bleus */
+}
+
+.services .service {
+    margin-bottom: 20px;
+}
+
+.services .service h3 {
+    margin: 0;
+    color: #ffffff; /* Sous-titres blancs */
+}
+
+.portfolio nav ul {
+    list-style-type: none;
+    padding: 0;
+    text-align: center;
+}
+
+.portfolio nav ul li {
+    display: inline;
+    margin: 0 10px;
+}
+
+.portfolio nav ul li a {
+    color: #4bcaff; /* Liens bleus */
+    text-decoration: none;
+}
+
+.default-section button {
+    background-color: #4bcaff; /* Bouton bleu */
+    color: #353f46; /* Texte du bouton gris foncé */
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+blockquote {
+    border-left: 5px solid #4bcaff;
+    padding-left: 15px;
+    color: #ffffff; /* Couleur du texte des citations */
+}
+
+form label {
+    display: block;
+    margin-top: 10px;
+}
+
+form input, form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid #353f46;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+form button {
+    background-color: #4bcaff; /* Bouton bleu */
+    color: #353f46; /* Texte du bouton gris foncé */
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #515f67; /* Arrière-plan gris clair */
+    color: #4bcaff; /* Texte bleu */
+}
+
+footer nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0 0 10px 0;
+}
+
+footer nav ul li {
+    display: inline;
+    margin: 0 10px;
+}
+
+footer nav ul li a {
+    color: #4bcaff; /* Liens bleus */
+    text-decoration: none;
+}
